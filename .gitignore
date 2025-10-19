@@ -1,0 +1,11 @@
+# React build and node modules
+employeeweb/node_modules/
+employeeweb/build/
+
+# Spring Boot target and IntelliJ files
+employee-server/target/
+employee-server/.idea/
+
+# Logs and system files
+*.log
+.DS_Store

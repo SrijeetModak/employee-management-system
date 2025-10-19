@@ -1,0 +1,22 @@
+/* Style the navbar background and brand */
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+}
+
+/* Style the navigation links */
+.navbar .nav-link {
+  color: #fff !important; /* White text color */
+  text-decoration: none !important; /* Remove underline */
+  margin-right: 20px; /* Add margin between links */
+}
+
+/* Add media query for small screens */
+@media (max-width: 576px) {
+  .navbar .nav-link {
+    margin-right: 0; /* Remove margin for small screens */
+  }
+}
